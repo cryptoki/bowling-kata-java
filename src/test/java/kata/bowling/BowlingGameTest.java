@@ -28,7 +28,7 @@ public class BowlingGameTest {
 
     @Test
     void canScorePerfectGame() {
-        rollWithTwentyTimes(10);
+        rollWith(10,  10,  10,  10,  10,  10,  10,  10,  10,  10,10,10);
         assertEquals(300, bowlingGame.score());
     }
 

@@ -7,5 +7,6 @@ build
 .project
 *.iws
 *.ipr
+*.iml
 .idea
 
